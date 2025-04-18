@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\models\\casasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\casasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\casas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\casas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\services\\casasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\casasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\controllers\\casascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\casascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\projectos\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 62,
           "Children": [
             {
               "$type": "Bookmark",
@@ -238,6 +271,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:40:07.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:38:09.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CasasController.cs",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\CasasController.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\CasasController.cs",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\CasasController.cs",
+              "RelativeToolTip": "CasoEstudio2\\Controllers\\CasasController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:35:11.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CasasService.cs",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Services\\CasasService.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\CasasService.cs",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Services\\CasasService.cs",
+              "RelativeToolTip": "CasoEstudio2\\Services\\CasasService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:18:44.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Program.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Program.cs",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Program.cs",
+              "RelativeToolTip": "CasoEstudio2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:16:26.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CasasModel.cs",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasasModel.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\CasasModel.cs",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasasModel.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\CasasModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:13:03.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RespuestaModel.cs",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\RespuestaModel.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\RespuestaModel.cs",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\RespuestaModel.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\RespuestaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:04:59.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\appsettings.json",
+              "RelativeDocumentMoniker": "CasoEstudio2\\appsettings.json",
+              "ToolTip": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\appsettings.json",
+              "RelativeToolTip": "CasoEstudio2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T16:03:24.481Z",
+              "EditorCaption": ""
             }
           ]
         },
