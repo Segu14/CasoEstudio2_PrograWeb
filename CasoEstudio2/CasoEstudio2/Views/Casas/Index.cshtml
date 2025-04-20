@@ -1,34 +1,56 @@
 ﻿@model IEnumerable<CasoEstudio2.Models.CasasModel>
-
-<h2>Listado de Casas</h2>
-
-@if (ViewBag.Error != null)
-{
-    <div class="alert alert-warning">@ViewBag.Error</div>
+@section Estilos {
+    <link rel="stylesheet" href="~/css/casas.css" asp-append-version="true" />
 }
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Descripción</th>
-                <th>Precio</th>
-                <th>Usuario</th>
-                <th>Estado</th>
-                <th>Fecha</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var casa in Model)
-            {
-                <tr>
-                    <td>@casa.DescripcionCasa</td>
-                    <td>@casa.PrecioCasa.ToString("N2")</td>
-                    <td>@casa.UsuarioAlquiler</td>
-                    <td>@casa.EstadoCasa</td>
-                    <td>@casa.FechaAlquiler</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+
+
+@{
+    ViewData["Title"] = "Listado de Casas";
 }
+
+<div class="container animate-fade-in">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold display-5 text-primary-emphasis">🏡 Listado de Propiedades</h2>
+        <p class="text-muted">Consulta nuestra lista de casas disponibles y reservadas en tiempo real.</p>
+        <a asp-controller="Casas" asp-action="Alquilar" class="btn btn-success mt-3 px-4 py-2 shadow-sm">
+            🏠 Alquilar una Casa
+        </a>
+    </div>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-warning text-center shadow-sm">@ViewBag.Error</div>
+    }
+    else
+    {
+        <div class="table-responsive shadow rounded">
+            <table class="table house-table mb-0">
+                <thead>
+                    <tr>
+                        <th>Descripción</th>
+                        <th>Precio (₡)</th>
+                        <th>Usuario</th>
+                        <th>Estado</th>
+                        <th>Fecha Alquiler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var casa in Model)
+                    {
+                        <tr>
+                            <td>@casa.DescripcionCasa</td>
+                            <td>@casa.PrecioCasa.ToString("N2")</td>
+                            <td>@(string.IsNullOrEmpty(casa.UsuarioAlquiler) ? "—" : casa.UsuarioAlquiler)</td>
+                            <td>
+                                <span class="estado @(casa.EstadoCasa == "Disponible" ? "disponible" : "reservada")">
+                                    @casa.EstadoCasa
+                                </span>
+                            </td>
+                            <td>@(casa.FechaAlquiler?.ToString("dd/MM/yyyy") ?? "—")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

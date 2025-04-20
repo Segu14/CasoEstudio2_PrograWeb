@@ -1,8 +1,30 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container text-center my-5 py-5 bg-white shadow-lg rounded animate-fade-in">
+    <h1 class="display-3 fw-bold mb-4 text-primary-emphasis">
+        🏡 Bienvenido a <span class="text-success">Alquiler Urbano</span>
+    </h1>
+
+    <p class="lead mb-4 text-muted">Explora, gestiona y alquila propiedades con facilidad y estilo.</p>
+
+    <!-- Imagen ilustrativa real de casas -->
+    <div class="mb-5">
+        <img src="https://images.adsttc.com/media/images/5b8d/e80e/f197/cc85/dc00/0113/original/GIF-01-.gif?1536026632"
+             alt="Casa moderna ilustrativa"
+             class="img-fluid animated-house"
+             style="max-width: 500px;" />
+
+    </div>
+
+    <!-- Botones de navegación -->
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+        <a asp-controller="Casas" asp-action="Index" class="btn btn-outline-primary btn-lg px-4 py-2 shadow-sm">
+            📋 Ver Disponibles
+        </a>
+        <a asp-controller="Casas" asp-action="Alquilar" class="btn btn-success btn-lg px-4 py-2 shadow-sm">
+            🏠 Reservar Propiedad
+        </a>
+    </div>
 </div>

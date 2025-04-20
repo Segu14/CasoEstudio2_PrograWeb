@@ -1699,24 +1699,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franv\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\juanp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\CasoEstudio2.csproj",
+      "projectUniqueName": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\CasoEstudio2.csproj",
       "projectName": "CasoEstudio2",
-      "projectPath": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\CasoEstudio2.csproj",
-      "packagesPath": "C:\\Users\\franv\\.nuget\\packages\\",
-      "outputPath": "C:\\Projectos\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\obj\\",
+      "projectPath": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\CasoEstudio2.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\franv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1776,7 +1771,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
