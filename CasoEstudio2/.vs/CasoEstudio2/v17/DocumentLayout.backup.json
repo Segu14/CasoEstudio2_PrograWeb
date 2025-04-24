@@ -1,25 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\",
+  "WorkspaceRootPath": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\netcore\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\services\\casasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\casasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\casas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\casas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\netcore\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\controllers\\casascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\casascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\netcore\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\casas\\alquilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\casas\\alquilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\casas\\alquilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\netcore\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\models\\casasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\services\\casasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\casasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\controllers\\casascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\casascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\wwwroot\\css\\casas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\wwwroot\\css\\casas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\models\\casasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\casasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\netcore\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\models\\casaalquilerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\proyectos\\proyectoprofe\\casoestudio2_prograweb\\casoestudio2\\casoestudio2\\models\\casaalquilerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C0914F1-01C9-44F4-8F39-C5A534012DDB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\casaalquilerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 61,
+          "SelectedChildIndex": 58,
           "Children": [
             {
               "$type": "Bookmark",
@@ -242,6 +274,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -257,29 +293,142 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T20:00:13.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Casas\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:59:49.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CasoEstudio2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:59:34.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "casas.css",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\wwwroot\\css\\casas.css",
+              "RelativeDocumentMoniker": "CasoEstudio2\\wwwroot\\css\\casas.css",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\wwwroot\\css\\casas.css",
+              "RelativeToolTip": "CasoEstudio2\\wwwroot\\css\\casas.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-24T19:58:54.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CasasModel.cs",
-              "DocumentMoniker": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasasModel.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\CasasModel.cs",
-              "ToolTip": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasasModel.cs",
-              "RelativeToolTip": "CasoEstudio2\\Models\\CasasModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:14:52.544Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:58:08.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:58:06.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:58:05.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alquilar.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Alquilar.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Casas\\Alquilar.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Alquilar.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Casas\\Alquilar.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:00:14.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:58:04.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CasasService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Services\\CasasService.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\CasasService.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Services\\CasasService.cs",
+              "RelativeToolTip": "CasoEstudio2\\Services\\CasasService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:58:57.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CasaAlquilerViewModel.cs",
-              "DocumentMoniker": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasaAlquilerViewModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasaAlquilerViewModel.cs",
               "RelativeDocumentMoniker": "CasoEstudio2\\Models\\CasaAlquilerViewModel.cs",
-              "ToolTip": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasaAlquilerViewModel.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasaAlquilerViewModel.cs",
               "RelativeToolTip": "CasoEstudio2\\Models\\CasaAlquilerViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,42 +436,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Alquilar.cshtml",
-              "DocumentMoniker": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Alquilar.cshtml",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Casas\\Alquilar.cshtml",
-              "ToolTip": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Views\\Casas\\Alquilar.cshtml*",
-              "RelativeToolTip": "CasoEstudio2\\Views\\Casas\\Alquilar.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T19:00:14.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CasasController.cs",
-              "DocumentMoniker": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\CasasController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\CasasController.cs",
               "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\CasasController.cs",
-              "ToolTip": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\CasasController.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Controllers\\CasasController.cs",
               "RelativeToolTip": "CasoEstudio2\\Controllers\\CasasController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwCUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAA8wDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T18:59:36.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CasasService.cs",
-              "DocumentMoniker": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Services\\CasasService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\CasasService.cs",
-              "ToolTip": "C:\\netCore\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Services\\CasasService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\CasasService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDgAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CasasModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasasModel.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\CasasModel.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoProfe\\CasoEstudio2_PrograWeb\\CasoEstudio2\\CasoEstudio2\\Models\\CasasModel.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\CasasModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:58:57.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T19:14:52.544Z"
             }
           ]
         },

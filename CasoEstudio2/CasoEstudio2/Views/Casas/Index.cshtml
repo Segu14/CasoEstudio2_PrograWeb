@@ -8,6 +8,12 @@
     ViewData["Title"] = "Listado de Casas";
 }
 
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success text-center shadow-sm">@TempData["Mensaje"]</div>
+}
+
+
 <div class="container animate-fade-in">
     <div class="text-center mb-5">
         <h2 class="fw-bold display-5 text-primary-emphasis">🏡 Listado de Propiedades</h2>
@@ -42,12 +48,13 @@
                             <td>@casa.PrecioCasa.ToString("N2")</td>
                             <td>@(string.IsNullOrEmpty(casa.UsuarioAlquiler) ? "—" : casa.UsuarioAlquiler)</td>
                             <td>
-                                <span class="estado @(casa.EstadoCasa == "Disponible" ? "disponible" : "reservada")">
+                                <span class="badge @(casa.EstadoCasa == "Disponible" ? "bg-success" : "bg-warning text-dark")">
                                     @casa.EstadoCasa
                                 </span>
                             </td>
                             <td>@(casa.FechaAlquiler?.ToString("dd/MM/yyyy") ?? "—")</td>
                         </tr>
+
                     }
                 </tbody>
             </table>

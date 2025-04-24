@@ -3,44 +3,43 @@
     var casas = ViewBag.Casas as IEnumerable<CasoEstudio2.Models.CasasModel>;
 }
 
-<section class="section section-variant-1 bg-gray-100">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <h4 class="mb-4">Formulario de Alquiler</h4>
-
-                @if (ViewBag.Mensaje != null)
-                {
-                    <div class="alert alert-danger">@ViewBag.Mensaje</div>
-                }
-
-                <form method="post" asp-action="Alquilar" asp-controller="Casas">
-                    <div class="form-group">
-                        <label for="idCasa">Casa</label>
-                        <select name="idCasa" id="idCasa" class="form-control">
-                            <option value="">Seleccione una casa</option>
-                            @foreach (var casa in casas)
-                            {
-                                <option value="@casa.IdCasa">@casa.DescripcionCasa</option>
-                            }
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Precio mensual</label>
-                        <input type="text" id="precio" class="form-control" readonly />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="usuarioAlquiler">Usuario que alquila</label>
-                        <input type="text" name="usuarioAlquiler" id="usuarioAlquiler" class="form-control" />
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Alquilar</button>
-                </form>
-            </div>
-        </div>
+<section class="container animate-fade-in mt-5">
+    <div class="header-section">
+        <h2 class="title">Formulario de Alquiler 🏠</h2>
+        <p class="subtitle">Seleccione una casa para alquilar y complete los datos requeridos.</p>
     </div>
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-danger text-center shadow-sm">@ViewBag.Mensaje</div>
+    }
+
+    <form method="post" asp-action="Alquilar" asp-controller="Casas" class="bg-white p-4 rounded-4 shadow-sm">
+        <div class="mb-4">
+            <label for="idCasa" class="form-label fw-semibold">Casa</label>
+            <select name="idCasa" id="idCasa" class="form-select">
+                <option value="">Seleccione una casa</option>
+                @foreach (var casa in casas)
+                {
+                    <option value="@casa.IdCasa">@casa.DescripcionCasa</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="precio" class="form-label fw-semibold">Precio mensual</label>
+            <input type="text" id="precio" class="form-control" readonly placeholder="Se completará automáticamente" />
+        </div>
+
+        <div class="mb-4">
+            <label for="usuarioAlquiler" class="form-label fw-semibold">Usuario que alquila</label>
+            <input type="text" name="usuarioAlquiler" id="usuarioAlquiler" class="form-control" placeholder="Ingrese su nombre" required />
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary px-4 py-2 shadow rounded-pill">Confirmar Alquiler</button>
+        </div>
+    </form>
 </section>
 
 @section Scripts {
