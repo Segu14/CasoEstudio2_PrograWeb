@@ -83,3 +83,77 @@ SELECT * FROM CasasSistema;
 
 /* :: fin Procesos Almacenados :: */
 
+
+Create  or Alter PROCEDURE [dbo].[ObtenerCasasDisponibles]
+AS
+BEGIN
+    SELECT * FROM CasasSistema WHERE EstadoCasa = 1
+END
+
+
+Create or Alter PROCEDURE [dbo].[AlquilarCasa]
+    @IdCasa BIGINT,
+    @Usuario VARCHAR(30)
+AS
+BEGIN
+    UPDATE CasasSistema
+    SET UsuarioAlquiler = @Usuario,
+        FechaAlquiler = GETDATE(),
+		EstadoCasa = 0
+    WHERE IdCasa = @IdCasa
+END
+
+
+Create or Alter PROCEDURE ConsultarCasa
+AS
+BEGIN
+	SELECT
+		DescripcionCasa,
+		PrecioCasa,
+		UsuarioAlquiler,
+		CASE
+			WHEN EstadoCasa = 1 THEN 'Disponible'
+			ELSE 'Reservada'
+		END AS EstadoCasa,
+		FORMAT(FechaAlquiler, 'dd/MM/yyyy') AS FechaAlquiler -- Cambiar alias aquí
+	FROM
+		CasasSistema
+	WHERE
+		PrecioCasa BETWEEN 115000 AND 180000
+	ORDER BY
+		CASE
+			WHEN EstadoCasa = 1 THEN 0
+			ELSE 1
+		END
+END
+
+
+Create or Alter PROCEDURE ConsultarCasa
+AS
+BEGIN
+	SELECT
+		IdCasa,
+		DescripcionCasa,
+		PrecioCasa,
+		UsuarioAlquiler,
+		CASE
+			WHEN EstadoCasa = 1 THEN 'Disponible'
+			ELSE 'Reservada'
+		END AS EstadoCasa,
+		FechaAlquiler -- <- sin FORMAT()
+	FROM
+		CasasSistema
+	WHERE
+		PrecioCasa BETWEEN 115000 AND 180000
+	ORDER BY
+		CASE
+			WHEN EstadoCasa = 1 THEN 0
+			ELSE 1
+		END
+END
+
+
+
+
+
+
