@@ -42,5 +42,38 @@ namespace CasoEstudio2.Services
 
             return respuesta;
         }
+
+        public async Task<RespuestaModel> ObtenerCasasDisponiblesAsync()
+        {
+            using var connection = new SqlConnection(_configuration.GetConnectionString("BDConnection"));
+
+            var resultado = await connection.QueryAsync<CasasModel>(
+                "ObtenerCasasDisponibles", commandType: CommandType.StoredProcedure
+            );
+
+            return new RespuestaModel
+            {
+                Resultado = true,
+                Datos = resultado
+            };
+        }
+
+        public async Task<RespuestaModel> AlquilarCasaAsync(int idCasa, string usuario)
+        {
+            using var connection = new SqlConnection(_configuration.GetConnectionString("BDConnection"));
+
+            var parametros = new DynamicParameters();
+            parametros.Add("@IdCasa", idCasa);
+            parametros.Add("@Usuario", usuario);
+
+            await connection.ExecuteAsync(
+                "AlquilarCasa",
+                parametros,
+                commandType: CommandType.StoredProcedure
+            );
+
+            return new RespuestaModel { Resultado = true };
+        }
+
     }
 }

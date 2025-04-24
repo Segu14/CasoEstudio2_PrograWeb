@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Alquilar Casa";
+    var casas = ViewBag.Casas as IEnumerable<CasoEstudio2.Models.CasasModel>;
+}
+
+<section class="section section-variant-1 bg-gray-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h4 class="mb-4">Formulario de Alquiler</h4>
+
+                @if (ViewBag.Mensaje != null)
+                {
+                    <div class="alert alert-danger">@ViewBag.Mensaje</div>
+                }
+
+                <form method="post" asp-action="Alquilar" asp-controller="Casas">
+                    <div class="form-group">
+                        <label for="idCasa">Casa</label>
+                        <select name="idCasa" id="idCasa" class="form-control">
+                            <option value="">Seleccione una casa</option>
+                            @foreach (var casa in casas)
+                            {
+                                <option value="@casa.IdCasa">@casa.DescripcionCasa</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Precio mensual</label>
+                        <input type="text" id="precio" class="form-control" readonly />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usuarioAlquiler">Usuario que alquila</label>
+                        <input type="text" name="usuarioAlquiler" id="usuarioAlquiler" class="form-control" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Alquilar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        const casas = @Html.Raw(Json.Serialize(casas));
+        const select = document.getElementById("idCasa");
+        const precio = document.getElementById("precio");
+
+        select.addEventListener("change", () => {
+            const seleccionada = casas.find(c => c.idCasa == select.value);
+            if (seleccionada) {
+                precio.value = parseFloat(seleccionada.precioCasa).toFixed(2);
+            } else {
+                precio.value = "";
+            }
+        });
+
+        select.dispatchEvent(new Event("change"));
+    </script>
+}
